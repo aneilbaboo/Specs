@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
   s.dependency 'SSKeychain'
   s.dependency 'Reachability'
 
-  s.subspec 'Evernote' do |evernote|
-    evernote.source_files = 'Classes/ShareKit/Sharers/Services/Evernote/**/*.{h,m}'
-    evernote.dependency 'Evernote-SDK-iOS', "1.0.1"
-  end
+#  s.subspec 'Evernote' do |evernote|
+#    evernote.source_files = 'Classes/ShareKit/Sharers/Services/Evernote/**/*.{h,m}'
+#    evernote.dependency 'Evernote-SDK-iOS', "1.0.1"
+#  end
 
   s.subspec 'Facebook' do |facebook|
     facebook.source_files   = 'Classes/ShareKit/Sharers/Services/Facebook/**/*.{h,m}'
-    facebook.dependency 'Facebook-iOS-SDK',"3.1.1"
+    facebook.dependency 'Facebook-iOS-SDK',"3.2.1"
   end
 
   s.subspec 'Flickr' do |flickr|
